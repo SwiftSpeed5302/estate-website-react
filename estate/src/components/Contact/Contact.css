@@ -1,0 +1,35 @@
+#con-wrapper{
+    margin: 2rem 2rem;
+}
+
+.con-container {
+  background: #4161df;
+  /* gap: 1.5rem; */
+  /* padding: 2rem; */
+  border-radius: 10px;
+  border: 6px solid #5d77d6;
+  text-align: center;
+}
+
+.con-button {
+  border: 2px solid white;
+  background: #5a73d7;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.inner-container > :nth-child(1) {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.inner-container .secondaryText {
+  color: rgba(255, 255, 255, 0.587);
+  margin-bottom: 1rem;
+}
+
+@media (max-width:640px) {
+  .inner-container > :nth-child(1) {
+font-weight: 500;  }
+}

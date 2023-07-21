@@ -1,0 +1,11 @@
+.c-container {
+  justify-content: space-around;
+}
+
+.c-container > img {
+  width: 9rem;
+}
+
+@media (max-width: 640px) {
+
+}

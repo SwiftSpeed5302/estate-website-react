@@ -1,0 +1,30 @@
+.f-container {
+  justify-content: space-between;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 5px; */
+}
+
+.f-menu {
+  /* margin-top: 1rem; */
+  margin-top: 1rem;
+  gap: 1.5rem;
+  font-weight: 500;
+}
+
+.f-menu > span {
+  cursor: pointer;
+}
+
+.f-left {
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .f-menu {
+    gap: 1rem;
+  }
+}
